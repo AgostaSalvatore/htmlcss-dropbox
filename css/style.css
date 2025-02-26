@@ -14,9 +14,21 @@ header{
 .header-container{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
+}
+
+.header-container > ul{
+    display: flex;
+    gap: 30px;
 }
 
 .header-container ul li{
     list-style-type: none;
+}
+
+.link{
+    padding: 5px;
+    background-color: #0464fc;
+    color: white;
+    text-decoration: none;
 }
