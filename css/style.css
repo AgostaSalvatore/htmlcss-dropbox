@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Spaziatura */
+
+header{
+    height: 80px;
+    background-color: burlywood;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-container ul li{
+    list-style-type: none;
+}
