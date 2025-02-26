@@ -74,10 +74,12 @@ header{
  .small-container {
     width: 1000px;
     margin: 0 auto;
+    height: 500px;
+    margin-bottom: 200px;
 }
 
 .col{
-    height: 950px;
+    height:550px;
     border: 1px solid grey;
     width: 33%;
     background-color: #b4d0e6;
@@ -91,7 +93,7 @@ header{
     border-bottom: 1px solid grey;
 }
 
-.container .row > .col{
+.small-container .row > .col{
     height: 250px;
     width: 1000px;
 }
@@ -108,3 +110,25 @@ h1{
 hr {
     margin-top: 120px;
  }
+
+ /* foto e testo */
+
+ .partner .small-container{
+    display: flex;
+    height: 500px;
+    margin-top: 200px;
+ }
+
+ .partner .text {
+    height: 500px;
+    width: 500px;
+    background-color: #3491db;
+}
+
+.partner .small-container .img{
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+}
+
+/*  */
