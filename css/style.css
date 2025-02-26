@@ -74,12 +74,12 @@ header{
  .small-container {
     width: 1000px;
     margin: 0 auto;
-    height: 500px;
+    height: 900px;
     margin-bottom: 200px;
 }
 
 .col{
-    height:550px;
+    height:650px;
     border: 1px solid grey;
     width: 33%;
     background-color: #b4d0e6;
@@ -118,6 +118,7 @@ header{
     background-color: grey;
 }
 
+
 /* Griglia Sei */
 .operation .col{
     height: 500px;
@@ -136,12 +137,12 @@ hr {
     margin-top: 120px;
  }
 
-.n-utenti > h3{
+.n-utenti > h3 {
     font-size: 30px;
     margin-top: 200px;
     margin-bottom: 70px;
  }
 
  .small-container > .n-utenti{
-    width: 600px;
+    width: 700px;
  }
