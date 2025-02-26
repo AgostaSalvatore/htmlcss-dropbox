@@ -98,19 +98,6 @@ header{
     width: 1000px;
 }
 
-h1{
-    width: 700px;
-    text-align: left;
-    margin: 0 auto;
-    font-size: 50px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-hr {
-    margin-top: 120px;
- }
-
  /* foto e testo */
 
  .partner .small-container{
@@ -131,4 +118,30 @@ hr {
     background-color: grey;
 }
 
-/*  */
+/* Griglia Sei */
+.operation .col{
+    height: 500px;
+}
+
+h1{
+    width: 700px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+hr {
+    margin-top: 120px;
+ }
+
+.n-utenti > h3{
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 70px;
+ }
+
+ .small-container > .n-utenti{
+    width: 600px;
+ }
