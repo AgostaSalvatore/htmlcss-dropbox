@@ -6,6 +6,7 @@
 
 /* Spaziatura */
 
+
 header{
     height: 80px;
     background-color: burlywood;
@@ -31,4 +32,33 @@ header{
     background-color: #0464fc;
     color: white;
     text-decoration: none;
+}
+
+/* Main */
+.jumbotron{
+    height: 700px;
+    background-color: #b4d0e6;
+}
+
+.jumbotron > .big-container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+}
+
+.big-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.text{
+    width: 400px;
+    background-color: #3491db;
+}
+
+.img{
+    width: 800px;
+    background-color: red;
 }
