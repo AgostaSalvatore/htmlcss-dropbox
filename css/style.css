@@ -128,14 +128,12 @@ header a {
 
  .partner .small-container{
     display: flex;
-    height: 500px;
-    margin-top: 200px;
+    margin-top: 300px;
  }
 
  .partner .text {
-    height: 500px;
-    width: 500px;
-    background-color: #3491db;
+    padding-left: 50px;
+    padding-right: 100px;
 }
 
 .partner .small-container .img{
@@ -144,10 +142,23 @@ header a {
     background-color: grey;
 }
 
+.partner .text, .partner .image {
+    width: 50%;
+}
+
+.text > h3 {
+    padding-bottom: 25px;
+}
+
+.small-container .text .button {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
 /* Col */
 
 .col{
-    height:950px;
+    height:1100px;
     border: 1px solid grey;
     width: 33%;
     background-color: #b4d0e6;
@@ -252,10 +263,17 @@ h3 {
     padding-top: 35px;
 }
 
+/* h */
+
 .rule {
     display: inline-block;
     height: 60px;
     border-bottom: 1px solid #d0cfd4;
+}
+
+.solution {
+    font-size: 12px;
+    padding-left: 30px;
 }
 
 /* check list */
@@ -268,3 +286,19 @@ h3 {
     color: #0062fe;
 }
 /* check list */
+
+
+.row > .col {
+    position: relative;
+}
+
+.row .col .mar-top {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+}
+
+#margin-left{
+    margin-left: 30px;
+}
