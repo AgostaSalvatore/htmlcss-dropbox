@@ -9,6 +9,9 @@
     margin-right: 40px;
 }
 
+.mar-top{
+    margin-top: 40px;
+}
 /* Spaziatura */
 
 /* Containers */
@@ -32,8 +35,10 @@ header {
     padding: 20px;
     align-items: center;
     position: fixed;
+    top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 header > ul{
@@ -47,9 +52,7 @@ header ul li{
 }
 
 header .button {
-    background-color: #0061fe;
     padding: 5px 10px;
-    color: #ffffff;
 }
 
 header a {
@@ -60,15 +63,30 @@ header a {
 
 /* Main */
 .jumbotron{
-    height: 700px;
     background-color: #b4d0e6;
+    margin-top: 150px;
 }
 
-.jumbotron > .big-container{
-    width: 1200px;
-    margin: 0 auto;
-    height: 400px;
+.jumbotron .jumbo-full{
     display: flex;
+}
+
+.jumbotron .big-container{
+    position: relative;
+    top: 100px;
+}
+
+.jumbotron .jumbo-text{
+    width: 30%;
+}
+
+.jumbotron .jumbo-img{
+    width: 70%;
+}
+
+h1{
+   margin-bottom: 50px;
+   font-size: 60px;
 }
 
 
@@ -133,17 +151,6 @@ header a {
     height: 500px;
 }
 
-h1{
-    width: 700px;
-    text-align: left;
-    margin: 0 auto;
-    font-size: 50px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-
-
 hr {
     margin-top: 120px;
  }
@@ -193,5 +200,12 @@ hr {
 
  .button {
     display: inline-block;
-    padding: 15px;
+    padding: 15px 18px;
+    background-color: #0061fe;
+    color: white;
+}
+
+img{
+    display: block;
+    max-width: 100%;
 }
