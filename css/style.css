@@ -18,7 +18,7 @@ body{
 }
 
 div > .list {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .list > li {
@@ -79,7 +79,7 @@ header a {
 }
 /* Header */
 
-/* Main */
+/* Jumbo */
 .jumbotron{
     background-color: #b4d0e6;
     margin-bottom: 150px;
@@ -107,6 +107,11 @@ header a {
     font-size: 40px;
     margin-top: 50px;
 }
+
+.jumbo-full a{
+    text-decoration: none;
+}
+/* Jumbo */
 
 .mod-pay{
     display: flex;
@@ -155,22 +160,36 @@ header a {
     color: #000;
     border: 2px solid #000;
 }
+
+/* row  */
+
+.row > .col {
+    position: relative;
+}
+
+.row .col .mar-top {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+}
+
 /* Col */
 
 .col{
     height:1100px;
-    border: 1px solid grey;
     width: 33%;
-    background-color: #b4d0e6;
     margin-top: 50px;
 }
 
+.border{
+    border: 1px solid grey;
+}
 .col .list {
     padding-left: 30px;
 }
 
 .col .price {
-    padding-top: 25px;
     font-size: 12px;
     font-weight: bold;
 }
@@ -235,7 +254,7 @@ hr {
     padding-top: 60px;
  }
 
- /* uti */
+ /* utility */
 
  .button {
     display: inline-block;
@@ -247,10 +266,6 @@ hr {
 img{
     display: block;
     max-width: 100%;
-}
-
-a{
-    text-decoration: none;
 }
 
 /* h */
@@ -295,18 +310,11 @@ h3 {
 }
 /* check list */
 
-
-.row > .col {
-    position: relative;
-}
-
-.row .col .mar-top {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-
-}
-
-#margin-left{
+.margin-left-right{
     margin-left: 30px;
+    margin-top: 20px;
+}
+
+.size{
+    font-size: 28px;
 }
