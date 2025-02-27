@@ -1,3 +1,7 @@
+body{
+    font-family: "Open Sans", serif;
+}
+
 /* Spaziatura */
 *{
     margin: 0;
@@ -64,7 +68,7 @@ header a {
 /* Main */
 .jumbotron{
     background-color: #b4d0e6;
-    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .jumbotron .jumbo-full{
@@ -73,48 +77,26 @@ header a {
 
 .jumbotron .big-container{
     position: relative;
-    top: 100px;
+    top: 110px;
 }
 
 .jumbotron .jumbo-text{
     width: 30%;
+    font-size: 14px;
 }
 
 .jumbotron .jumbo-img{
     width: 70%;
 }
 
-h1{
-   margin-bottom: 50px;
-   font-size: 60px;
-}
-
-.arrowdown {
+.arrowdown{
     font-size: 40px;
     margin-top: 50px;
-}
-
-.text{
-    width: 400px;
-    background-color: #3491db;
-}
-
-.img{
-    width: 800px;
-    background-color: red;
 }
 
 .mod-pay{
     display: flex;
     gap: 40px;
-}
-
-.col{
-    height:650px;
-    border: 1px solid grey;
-    width: 33%;
-    background-color: #b4d0e6;
-    margin-top: 50px;
 }
 
 .target {
@@ -149,6 +131,31 @@ h1{
     background-color: grey;
 }
 
+/* Col */
+
+.col{
+    height:950px;
+    border: 1px solid grey;
+    width: 33%;
+    background-color: #b4d0e6;
+    margin-top: 50px;
+}
+
+.col .list {
+    padding-left: 30px;
+}
+
+.col .price {
+    padding-top: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.col .month {
+    padding-top: 20px;
+    font-size: 13px;
+    color: #66676b;
+}
 
 /* Griglia Sei */
 .operation .col{
@@ -213,4 +220,21 @@ img{
 
 a{
     text-decoration: none;
+}
+
+/* h */
+
+h1{
+    margin-bottom: 50px;
+    font-size: 60px;
+ }
+
+h2 {
+    font-size: 25px;
+    margin-top:120px;
+    padding-bottom: 70px;
+}
+
+h3 {
+    padding-top: 35px;
 }
