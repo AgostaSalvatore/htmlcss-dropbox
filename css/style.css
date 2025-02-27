@@ -1,3 +1,4 @@
+/* Spaziatura */
 *{
     margin: 0;
     padding: 0;
@@ -10,33 +11,52 @@
 
 /* Spaziatura */
 
+/* Containers */
 
-header{
-    height: 50px;
-    background-color: burlywood;
+.big-container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.header-container{
+.small-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* Containers */
+
+/* Header */
+header {
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
-.header-container > ul{
+header > ul{
     display: flex;
-    gap: 30px;
+    gap: 40px;
+    align-items: center;
 }
 
-.header-container ul li{
+header ul li{
     list-style-type: none;
 }
 
-.link{
-    padding: 5px;
-    background-color: #0464fc;
-    color: white;
-    text-decoration: none;
+header .button {
+    background-color: #0061fe;
+    padding: 5px 10px;
+    color: #ffffff;
 }
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+/* Header */
 
 /* Main */
 .jumbotron{
@@ -49,11 +69,6 @@ header{
     margin: 0 auto;
     height: 400px;
     display: flex;
-}
-
-.big-container{
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 
@@ -70,10 +85,6 @@ header{
 .mod-pay{
     display: flex;
     gap: 40px;
-}
- .small-container {
-    width: 1000px;
-    margin: 0 auto;
 }
 
 .col{
@@ -177,3 +188,10 @@ hr {
  .language > a{
     text-decoration: none;
  }
+
+ /* uti */
+
+ .button {
+    display: inline-block;
+    padding: 15px;
+}
