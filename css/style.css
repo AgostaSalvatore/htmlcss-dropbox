@@ -184,6 +184,10 @@ header a {
     width: 20%;
 }
 
+.col-10{
+    width: 10%;
+}
+
 .col{
     height:1100px;
     width: 33%;
@@ -214,10 +218,14 @@ header a {
     height: 500px;
 }
 
-hr {
-    margin-top: 150px;
-    margin-bottom: 120px;
- }
+hr{
+    margin-top: 100px;
+    border: 0.5px solid #999;
+}
+
+#invis-line{
+    border: 0.8px solid rgba(211, 211, 211, 0.2);
+}
 
 .col > h3{
     padding-top: 0px;
@@ -249,21 +257,18 @@ hr {
 }
 
 .footer-info ul li{
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
-.col-100 >.a{
-    text-decoration: none;
-}
-
-.it{
-    background-color: #3491db;
- }
-
- .it .big-container{
+.italian .big-container{
     height: 120px;
     padding-top: 60px;
  }
+
+ footer a{
+    text-decoration: none;
+    color: white;
+}
 
 /* Footer */
 
@@ -305,6 +310,7 @@ h2 {
 
 h3 {
     padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 /* h */
@@ -343,3 +349,9 @@ h3 {
 .white-text{
     color:#fff;
 }
+
+.language i{
+    color: grey;
+}
+
+
