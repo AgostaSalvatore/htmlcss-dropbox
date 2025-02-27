@@ -201,6 +201,7 @@ hr {
     font-size: 30px;
     margin-top: 200px;
     padding-top: 100px;
+    padding-bottom: 60px;
  }
 
  .small-container > .n-utenti{
@@ -257,6 +258,7 @@ a{
 h1{
     margin-bottom: 50px;
     font-size: 60px;
+    width: 80%;
  }
 
 h2 {
