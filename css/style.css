@@ -89,6 +89,10 @@ h1{
    font-size: 60px;
 }
 
+.arrowdown {
+    font-size: 40px;
+    margin-top: 50px;
+}
 
 .text{
     width: 400px;
@@ -152,7 +156,8 @@ h1{
 }
 
 hr {
-    margin-top: 120px;
+    margin-top: 150px;
+    margin-bottom: 120px;
  }
 
 .n-utenti > h3 {
@@ -192,10 +197,6 @@ hr {
     padding-top: 60px;
  }
 
- .language > a{
-    text-decoration: none;
- }
-
  /* uti */
 
  .button {
@@ -208,4 +209,8 @@ hr {
 img{
     display: block;
     max-width: 100%;
+}
+
+a{
+    text-decoration: none;
 }
